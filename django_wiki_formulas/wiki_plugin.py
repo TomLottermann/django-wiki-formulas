@@ -5,8 +5,8 @@ from django.utils.translation import ugettext as _
 from wiki.core.plugins import registry
 from wiki.core.plugins.base import BasePlugin
 
-from wiki.plugins.formulas.mdx.mdx_mathjax import MathJaxExtension
-from wiki.plugins.formulas import settings
+from django_wiki_formulas.mdx.mdx_mathjax import MathJaxExtension
+from django_wiki_formulas import settings
 
 class FormulaPlugin(BasePlugin):
     
