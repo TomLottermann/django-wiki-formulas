@@ -1,0 +1,4 @@
+include COPYING
+include README.md
+include requirements.txt
+recursive-include django-wiki-formulas *.html *.txt *.png *.js *.css *.gif *.less *.mo *.po *.woff *.svg *.otf *.eot

@@ -1,0 +1,34 @@
+{% load i18n sekizai_tags %}
+{% load url from future %}
+<h4>{% trans "Adding a formula" %}</h4>
+
+<p>
+  {% trans "Add a latex based formula to the article by simply wrapping it in $$. Formulas may look like this:" %}<br />
+</p>
+
+<pre>
+$$
+\begin{pmatrix}
+a_1 & \frac{a}{v} & a_3 \\
+b_1 & b_2 & b_3 \\
+c_1 & c_2 & c_3
+\end{pmatrix}
+\cdot
+d_4
+$$
+</pre>
+
+<p>
+  <label>{% trans "Create formula in editor" %}</label>
+  <button type="button" class="btn" onclick="wikiWrapFormula()">
+    {% trans "Create" %}
+  </button>
+</p>
+
+{% addtoblock "js" %}
+<script type="text/javascript">
+function wikiWrapFormula() {
+  $('#id_content').wrapSelection('$$ ', ' $$');
+}
+</script>
+{% endaddtoblock %}
