@@ -21,7 +21,7 @@ setup(
     description = ("A simple formula plugin for wiki (django-wiki)."),
     license = "GPLv3",
     keywords = "django wiki formula",
-    packages = packages,
+    packages = find_packages(),
     long_description = read('README.md'),
     zip_safe = False,
     install_requires = read('requirements.txt').split("\n"),
