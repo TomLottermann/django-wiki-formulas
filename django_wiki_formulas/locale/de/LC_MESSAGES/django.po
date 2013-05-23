@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-23 22:22+0200\n"
+"PO-Revision-Date: 2013-05-23 22:21+0200\n"
+"Last-Translator: Thomas Lottermann <TomLottermann@googlemail.com>\n"
+"Language-Team: \n"
+"Language: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wiki_plugin.py:15
+msgid "Formulas"
+msgstr "Formeln"
+
+#: templates/django_wiki_formulas/sidebar.html:3
+msgid "Adding a formula"
+msgstr "Formel hinzufügen"
+
+#: templates/django_wiki_formulas/sidebar.html:6
+msgid ""
+"Add a latex based formula to the article by simply wrapping it in $$. "
+"Formulas may look like this:"
+msgstr ""
+"Füge eine Formel in LaTeX Syntax hinzu, indem du sie mit $$ umgibst. Formeln "
+"dürfen wie folgt aussehen:"
+
+#: templates/django_wiki_formulas/sidebar.html:22
+msgid "Create formula in editor"
+msgstr "Erzeuge eine Formel im Editor"
+
+#: templates/django_wiki_formulas/sidebar.html:24
+msgid "Create"
+msgstr "Erstellen"
