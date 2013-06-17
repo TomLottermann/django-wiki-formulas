@@ -26,7 +26,7 @@ class MathJaxExtension(Extension):
 
         md.preprocessors.add('mathjax_block',
                                  MathJaxPreprocessor(md),
-                                 "_begin")
+                                 ">normalize_whitespace")
 
 
 class MathJaxPreprocessor(Preprocessor):
